@@ -1,0 +1,121 @@
+body{
+    background-color: #292A2D;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: thin;
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
+
+.welcome{
+    color: #f5f5f5;
+    font-size: 16px;
+    margin: 20px 0;
+}
+h1{
+    color: #f5f5f5;
+    font-size: 18px;
+    width: 600px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.ideas-box{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    min-height: 400px;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
+}
+
+.ideas-box > div {
+    width: 100%;
+    padding: 5px;
+}
+
+.good-ideas-counter {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.good-ideas-counter .iconify, p {
+    color: #f5f5f5;
+}
+
+.ideas-list {
+    width: 95%;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 96%;
+    height: 30px;
+    padding: 10px;
+}
+
+.input-box input {
+    width: 70%;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.input-box button {
+    width: 23%;
+    border-radius: 7px;
+    height: 30px;
+    border: none;
+    font-weight: bold;
+    background-color: #F1EAA9;
+    cursor: pointer;
+}
+.input-box button:hover {
+    background-color:#f1ebb5;
+}
+
+.ideas-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.ideas-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 45px;
+    background-color: #4f4f4f;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 3px 0;
+}
+
+li .iconify {
+    color: #f5f5f5;
+    font-size: 24px;
+    cursor: pointer;
+}
